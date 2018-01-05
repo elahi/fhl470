@@ -9,132 +9,89 @@ output:
   word_document: default
 ---
 
-> Friday Harbor Labs, University of Washington  
+Friday Harbor Labs, University of Washington  
 Spring 2018  
-Instructors: Dr. Robin Elahi, Dr. Hilary Hayford  
-Meeting Times: Tuesdays 4 PM, Fridays 8:30 AM - 5 PM  
+Instructors: Dr. Robin Elahi (elahi.robin@gmail.com), Dr. Hilary Hayford (hayford@uw.edu)  
+Meeting Times: Tuesdays 4PM, Fridays 8:30AM-5PM (flexible; see schedule for details)  
 Meeting Locations: Lab X and other locations  
-Course website: xxx
+Course Website: xxx  
 
-
-
-# SYLLABUS
+The course listing is **[here](https://fhl.uw.edu/courses/course-descriptions/course/historical-marine-ecology-research-experience/)**  
 
 Find this resource here:
-<https://mzl.la/sva-viz>
+<https://github.com/elahi/fhl470/blob/master/syllabus/syllabus.pdf>
 
-### COURSE LOGISTICS:
-	Friday Harbor Labs, University of Washington
-	26 March - 1 June 2018
-	Tuesdays 4PM, Fridays 8:30AM-5PM (variable; see schedule for details)
+## OVERVIEW 
 
-Here is the [course listing](http://dsi.sva.edu/course/metrics-and-data-visualization-i/).
+Biological field stations are treasure troves of historical ecological information because a major task of pioneering scientific naturalists was the detailed description of ecosystems.  Much of this information remains unpublished in student reports from classes led by professors of botany and zoology in the early 20th century.  We will revisit the natural history approach taken by these professors – but through the lens of human impacts and global change. This course provides students with a general introduction to historical marine ecology and the opportunity to do a hands-on research project. Lectures will focus on basic understanding of ecological principles and the role of historical approaches in understanding temporal change. The bulk of the course will be spent engaged in developing and completing a collaborative research project that repeats a historical study with the goal of understanding population- or community-scale change in the intertidal zone.
 
-### INSTRUCTORS:
-	Robin Elahi
-	elahi.robin@gmail.com
-	@elahi_r
-	
-	Hilary Hayford
-	hayford@uw.edu
-	
-	
-### OFFICE HOURS: 
-Fridays 5-6PM, by appointment via gcal - send to aurelia@mozillafoundation.org
+## LEARNING OBJECTIVES 
 
-### DESCRIPTION
+Students will:
 
-Data visualizations increasingly shape the way we process the success of initiatives, and the expectations for activism and innovation globally. How might you evaluate the success or impact of a program? What skills should you hone to communicate your projects and progress to a new audience? How can technology hone critical thinking and problem framing for a particular area of social need and interest? 
+  1. learn the basics of historical ecology with a focus on marine systems
+  2. learn about the ecology of rocky intertidal shores through lecture and field activities
+  3. practice the process and skills of research science ('scientific method')
+    - search for, review, and synthesize primary literature and unpublished student reports
+    - develop a research question and generate testable hypotheses
+    - gather empirical field data to test hypotheses
+    - analyze and interpret data using the R programming language
+    - form conclusions based on rigorous scientific evidence
+    - communicate results via oral and written formats
+    - learn best practices for data archival and reproducibility
+  4. participate in peer review
+  5. explore science career possibilities and training pathways
 
-This course will introduce web development for data visualization, including an introduction to web scripting languages, version control for collaborative coding, and the authorship of interactive visualization on/off the web.
+## EVALUATION AND GRADING 
 
-The goal of the course is to compliment student's existing coursework and interests with some basic visualization skills, by course completion, helping them design, build, and deploy a data-driven interactive on a topic related to their work. Students will workshop an interactive of their own design throughout the course, punctuated by smaller exercises and lecture pairings on the topics of HTML5/CSS3, Javascript and contemporary development in open source and non-profit tech.
+Here is a breakdown of graded tasks, with examples of each:
 
-### OBJECTIVE + LEARNING OUTCOMES
-Being successful in programming or social change initiatives involves producing under deadline. Funders, employers, collaborators, and patrons of your products will expect that you work efficiently. This course is modeled for your future success, and so deadlines will be applied to keep time with a professional pace. The final project for the course, and primary graded assignment, will depend on an agglutinative series of tasks designed to help you learn and think critically throughout the semester. 
+  - Research conduct (30%)
+    - project planning and execution
+    - good techniques 
+    - conceptual understanding and stewardship of project 
+    - record keeping and data archival
+    - respect for lab, equipment, and collaborators
+    
+  - Scientific communication (25%)
+    - drafts and revisions for each section of the  final research report and oral presentation
+    
+  - R workshop (25%)
+    - data analysis and R computing assignments
+  
+  - Collaborative participation (10%)
+    - discussion facilitation and participation
+    - peer reviews  
+  
+  - Classroom exercises (10%)
+    - reading assignments
+    - ethics course
+    - literature search and annotated bibliography  
+  
 
-#### LEARNING OUTCOMES:
+## NOTES
 
-1. how to assess, manipulate, and analyze  data
-2. how to bulletproof your data
-3. the merits of certain visualization types
-4. the mechanics of collaboration and github
-5. the basics of building interactive graphics: html/css/js
-6. the value of publishing and self-publishing 
+Instructor may change the activities schedule or meeting location. You will be notified of any changes.
 
-#### GRADE CALCULATION:
-Here is a basic breakdown of graded tasks along that trajectory:
+Use of your personal computer for in-class exercises, such as data analysis and literature searches, is highly recommended. Please let your instructor/TA know if you do not have a computer so we may make classroom arrangements.
 
-* 10% Attendance/Participation
-* 30% Assignments
-* 20% Project Proposal
-* 40% Final Project, completed on conclusion of the course
+**Plagiarism and Academic Dishonesty**
 
-TOTAL: 100%
+At the University level, passing anyone else's scholarly work, which can include: written material, exam answers, graphics or other images, and even ideas as your own, without proper attribution, is considered academic misconduct. Plagiarism, cheating, and other misconduct are serious violations of the University of Washington Conduct Code (WAC 478-120). We expect that you will know and follow the UW's policies on cheating and plagiarism. For more information, see the College of the Environment Academic Misconduct Policy:  
 
-It is understood that coding is tough and you may be new to this, you will be graded on your progress throughout the class, your ability to complete assignments on time, your interaction with peer reviewers, and your ability to justify your decisions thoughtfully.
+<https://environment.uw.edu/intranet/academics/academic-integrity/academic-misconduct/>  
 
-### MATERIALS
-Coding is an art; you will have a series of art supplies for this course that will all be free unless otherwise noted, but will require some non-trivial investment on your part to set-up. I'm available to help if you need it.
+You will ALWAYS be expected to properly credit the ideas and words of others in your papers. We will discuss citation formats and strategies in class. 
 
-**SET-UP ACCOUNT**
+**Disability Accommodations**  
+It is crucial that all students in this class have access to the full range of learning experiences. At the University of Washington, it is the policy and practice to create inclusive and accessible learning environments consistent with federal and state law. Full participation in this course requires the following types of engagement:
 
-* Hosting Service - [Github](https://github.com/) Account, [signup here](https://help.github.com/articles/signing-up-for-a-new-github-account/) 
-* Join our classroom here: https://classroom.github.com/classrooms/20387575-sva-dsi-data-vis
+  - Lecture & Discussion: the ability to attend lectures & participate in discussion of 60 minutes with up to 20 other students.
+  - Lab: the ability to work independently and with peers in the laboratory, including recording observations by hand
+  - Field Trips: the physical conditioning and ability to participate in trips to beaches & mudflats, including hiking on steep trails, clambering over rocks, walking in the mud, working at night  
+  
+If you anticipate or experience barriers to your learning or full participation in this course based on a physical, learning, or mental health disability, please immediately contact the instructor to discuss possible accommodation(s). A more complete description of the disability policy of the College of the Environment can be found **[here](https://environment.uw.edu/intranet/academics/teaching/disability-accommodation/)**. If you have, or think you have, a temporary or permanent disability that impacts your participation in any course, please also contact Disability Resources for Students (DRS) at: 206-543-8924 V / 206-543-8925 TDD / uwdss@uw.edu e-mail / http://www.uw.edu/students/drs.
 
-**DOWNLOAD AND INSTALL**
-
-* Text Editor - [Sublime Text](http://www.sublimetext.com/) or [Atom.io](https://atom.io/)
-* Processing - [Processing sketch editor](https://processing.org/download/?processing)
-* A Markdown Editor - [Mou](http://25.io/mou/)
-
-**LEARN**
-
-* Setting up a Server - [Python Simple Server](http://www.pythonforbeginners.com/modules-in-python/how-to-use-simplehttpserver/)
-
-### COURSE POLICIES
-
-**PARTNER POLICY**
-
-You will find a parter, or a triplet in this course and have some time afforded to workshop your ideas, your narratives and your code with them during peer review. They will give me feedback that contributes to your grade; so pair well with your peers.
-
-**ATTENDANCE/PARTICIPATION**
-
-Attendance accounts for 10% of your final grade. 
-
-**ASSIGNMENTS**
-
-Each week you will have readings assigned, accompanied by often (but not always) an `Assignment` and a `Practice` activity. See the calendar below to confirm the expectations from week to week. I will grade your assignments and aggregate them as contributions to your final grade. Most assignments are working toward your Final Project, counting as 40% of your final grade.
-
-* All assignments will be submitted via [gist](https://gist.github.com/) on your [Github](https://github.com/) account.
-* Aurelia will repost assignments in Canvas, where possible
-* You can view a template of what your assignment should look like here in this [gist](https://gist.github.com/auremoser/9dcfac8163e7737e7b5f).
-* We have a [Github classroom](https://classroom.github.com/classrooms/20387575-sva-dsi-data-vis) for our course, to which you will likely add your final projects, more on that later.
-* Assignments are due on the course date following the class in which they are assigned unless otherwise indicated - there are short assignments every week - Week 2 for example, "Critique an interactive" is due on 9/13
-
-
-| WEEK  |  DATE  | ASSIGNMENT DUE  | PRACTICE | NOTE |
-| :---- | ------ | ----------- | -------- | ---- |
-|  1   |  09/07  | Read the syllabus  | X | |
-|  2   |  09/14  | Critique an interactive  | X | GUEST: Daniel Goddemeyer |
-|  3   |  09/21  | Comparing interactives  | X | GUEST: Caroline Sinders |
-|  4   |  09/28  | Evaluating platforms + Versioning  | X | NO CLASS |
-|  5   |  10/05  | Dataset selection | X | GUEST: Alejandro Figueroa |
-|  6   |  10/12  | Practice HTML/CSS  | X | GUEST: Francis Tseng |
-|  7   |  10/19  | **Prototype 1**: Time-Series/Stats  | X | GUEST: Andy Eschbacher |
-|  8   |  10/26  | **Prototype 2**: Mapping  | X | GUEST: Robby Kraft |
-|  9   |  11/02  | **Prototype 3**: Graphs  | X |  |
-|  10   |  11/09  | Style guide for Final Project  |  | |
-| 11   |  11/16  | **Proposal** for Final Project | X |  |
-| 12   |  11/23  | Template your project  |  | NO CLASS - THANKSGIVING |
-| 13   |  11/30  | Peer review: groom projects with feedback |  | |
-| 14   |  12/07  | **Final Presentations** |  |  |  
-| 15   |  12/14  | **Final Projects Due** -  Appts w/ Aurelia | | NO CLASS - FINALS DUE |
-
-**READINGS**
-
-Readings are assigned to correspond with that week's assignment and class lesson. I'll be lecturing outside the readings with some references to them, and your assignments will allude to them too. Feel free to read ahead to make certain weeks easier. 
-
-**There is no textbook for this course** as most of the resources can be found for free online.
-
-You can find the [FULL BIBLIOGRAPHY](https://github.com/sva-dsi/2017-fall-course/blob/master/bibliography.md) in the repository for this course.
+**Roles and Responsibilities**  
+*Student*: inform the instructor no later than the first week of the quarter of any accommodation(s) you will or may potentially require.  
+*Instructors*: maintain strict confidentiality of any student’s disability and accommodations; help all students meet the learning objectives of this course.
