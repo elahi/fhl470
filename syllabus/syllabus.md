@@ -50,6 +50,7 @@ Here is a breakdown of graded tasks, with examples of each:
     - project planning and execution
     - good techniques 
     - conceptual understanding and stewardship of project 
+    - reading scientific literature 
     - record keeping and data archival
     - respect for lab, equipment, and collaborators
     
@@ -75,13 +76,15 @@ Instructor may change the activities schedule or meeting location. You will be n
 
 Use of your personal computer for in-class exercises, such as data analysis and literature searches, is highly recommended. Please let your instructor/TA know if you do not have a computer so we may make classroom arrangements.
 
-**Plagiarism and Academic Dishonesty**
+**Plagiarism, Dishonesty, and Academic Misconduct**
 
-At the University level, passing anyone else's scholarly work, which can include: written material, exam answers, graphics or other images, and even ideas as your own, without proper attribution, is considered academic misconduct. Plagiarism, cheating, and other misconduct are serious violations of the University of Washington Conduct Code (WAC 478-120). We expect that you will know and follow the UW's policies on cheating and plagiarism. For more information, see the College of the Environment Academic Misconduct Policy:  
+At the University level, passing anyone else's scholarly work, which can include: written material, exam answers, graphics or other images, and even ideas as your own, without proper attribution, is considered academic misconduct. Plagiarism, cheating, and other misconduct, including bullying, discrimination, and harassment, are serious violations of the University of Washington Conduct Code (WAC 478-120). We expect that you will know and follow the UW's policies on cheating and plagiarism. For more information, see the College of the Environment Academic Misconduct Policy:  
 
 <https://environment.uw.edu/intranet/academics/academic-integrity/academic-misconduct/>  
 
 You will ALWAYS be expected to properly credit the ideas and words of others in your papers. We will discuss citation formats and strategies in class. 
+
+Any suspected violations of the code will be referred to the UW office of Community Standards & Student Conduct. 
 
 **Disability Accommodations**  
 It is crucial that all students in this class have access to the full range of learning experiences. At the University of Washington, it is the policy and practice to create inclusive and accessible learning environments consistent with federal and state law. Full participation in this course requires the following types of engagement:
