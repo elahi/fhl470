@@ -87,14 +87,18 @@ You will ALWAYS be expected to properly credit the ideas and words of others in 
 Any suspected violations of the code will be referred to the UW office of Community Standards & Student Conduct. 
 
 **Disability Accommodations**  
+
 It is crucial that all students in this class have access to the full range of learning experiences. At the University of Washington, it is the policy and practice to create inclusive and accessible learning environments consistent with federal and state law. Full participation in this course requires the following types of engagement:
 
-  - Lecture & Discussion: the ability to attend lectures & participate in discussion of 60 minutes with up to 20 other students.
-  - Lab: the ability to work independently and with peers in the laboratory, including recording observations by hand
-  - Field Trips: the physical conditioning and ability to participate in trips to beaches & mudflats, including hiking on steep trails, clambering over rocks, walking in the mud, working at night  
+  - Lecture & Discussion: the ability to attend lectures & participate in discussion of 60 minutes with up to 20 other students 
+  - Lab: the ability to work independently and with peers in the laboratory, including recording observations by hand 
+  - Field Trips: the physical conditioning and ability to participate in trips to beaches & mudflats, including hiking on steep trails, clambering over rocks, walking in the mud, working at night 
   
-If you anticipate or experience barriers to your learning or full participation in this course based on a physical, learning, or mental health disability, please immediately contact the instructor to discuss possible accommodation(s). A more complete description of the disability policy of the College of the Environment can be found **[here](https://environment.uw.edu/intranet/academics/teaching/disability-accommodation/)**. If you have, or think you have, a temporary or permanent disability that impacts your participation in any course, please also contact Disability Resources for Students (DRS) at: 206-543-8924 V / 206-543-8925 TDD / uwdss@uw.edu e-mail / http://www.uw.edu/students/drs.
+If you anticipate or experience barriers to your learning or full participation in this course based on a physical, learning, or mental health disability, please immediately contact the instructor to discuss possible accommodation(s). A more complete description of the disability policy of the College of the Environment can be found **[here](https://environment.uw.edu/intranet/academics/teaching/disability-accommodation/)**. If you have already established accommodations with Disability Resources for Students (DRS), please communicate your approved accommodations to me at your earliest convenience so we can discuss your needs in this course. 
+
+DRS offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and DRS. It is the policy and practice of the University of Washington to create inclusive and accessible learning environments consistent with federal and state law. For more information, please contact (DRS) at: 206-543-8924 V / 206-543-8925 TDD / uwdrs@uw.edu e-mail / http://www.uw.edu/students/drs.
 
 **Roles and Responsibilities**  
+
 *Student*: inform the instructor no later than the first week of the quarter of any accommodation(s) you will or may potentially require.  
 *Instructors*: maintain strict confidentiality of any student’s disability and accommodations; help all students meet the learning objectives of this course.
