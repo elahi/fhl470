@@ -21,6 +21,9 @@ The course listing is **[here](https://fhl.uw.edu/courses/course-descriptions/co
 Find this resource here:
 <https://github.com/elahi/fhl470/blob/master/syllabus/syllabus.pdf>
 
+The assignments, along with due dates, are here:  
+<https://docs.google.com/spreadsheets/d/1Dct1iOmCpPkHb0uy1VJuMX--AVGy6Auo4Vh66iZ-VXw/edit?usp=sharing>
+
 ## OVERVIEW 
 
 Biological field stations are treasure troves of historical ecological information because a major task of pioneering scientific naturalists was the detailed description of ecosystems.  Much of this information remains unpublished in student reports from classes led by professors of botany and zoology in the early 20th century.  We will revisit the natural history approach taken by these professors – but through the lens of human impacts and global change. This course provides students with a general introduction to historical marine ecology and the opportunity to do a hands-on research project. Lectures will focus on basic understanding of ecological principles and the role of historical approaches in understanding temporal change. The bulk of the course will be spent engaged in developing and completing a collaborative research project that repeats a historical study with the goal of understanding population- or community-scale change in the intertidal zone.
@@ -46,29 +49,19 @@ Students will:
 
 Here is a breakdown of graded tasks, with examples of each:
 
-  - Research conduct (30%)
+  - Assignments (70%)
+    - [see this link for details](https://docs.google.com/spreadsheets/d/1Dct1iOmCpPkHb0uy1VJuMX--AVGy6Auo4Vh66iZ-VXw/edit?usp=sharing)
+    
+  - Collaborative participation (15%)
+    - paper discussions
+    - discussion facilitation and participation
+    
+  - Research conduct (15%)
     - project planning and execution
-    - good techniques 
     - conceptual understanding and stewardship of project 
-    - reading scientific literature 
     - record keeping and data archival
     - respect for lab, equipment, and collaborators
-    
-  - Scientific communication (25%)
-    - drafts and revisions for each section of the  final research report and oral presentation
-    
-  - R workshop (25%)
-    - data analysis and R computing assignments
-  
-  - Collaborative participation (10%)
-    - discussion facilitation and participation
-    - peer reviews  
-  
-  - Classroom exercises (10%)
-    - reading assignments
-    - ethics course
-    - literature search and annotated bibliography  
-  
+
 
 ## NOTES
 
