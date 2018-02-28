@@ -14,9 +14,10 @@ Spring 2018
 Instructors: Dr. Robin Elahi (elahi.robin@gmail.com), Dr. Hilary Hayford (hayford@uw.edu)  
 Meeting Times: Tuesdays 4PM, Fridays 8:30AM-5PM (flexible; see schedule for details)  
 Meeting Locations: Lab X and other locations  
-Course Website: xxx  
+Course Website: https://github.com/elahi/fhl470  
 
-The course listing is **[here](https://fhl.uw.edu/courses/course-descriptions/course/historical-marine-ecology-research-experience/)**  
+The course listing is here:
+<https://fhl.uw.edu/courses/course-descriptions/course/historical-marine-ecology-research-experience/)>  
 
 Find this resource here:
 <https://github.com/elahi/fhl470/blob/master/syllabus/syllabus.pdf>
@@ -54,7 +55,7 @@ Here is a breakdown of graded tasks, with examples of each:
     
   - Collaborative participation (15%)
     - paper discussions
-    - discussion facilitation and participation
+    - field and computer lab participation
     
   - Research conduct (15%)
     - project planning and execution
