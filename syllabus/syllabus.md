@@ -25,7 +25,7 @@ Find this resource here:
 <https://github.com/elahi/fhl470/blob/master/syllabus/syllabus.md>
 
 Our course schedule is here:  
-<https://docs.google.com/spreadsheets/d/1CzR5K-k4mb_uYxXwWFgLBxPRHaaYke1ZHWGqA8vL4L8/edit#gid=0>
+<https://docs.google.com/spreadsheets/d/1mrc0hdON9AifmPc9wZ1ZXk141ZH_RRw_al3tijHWoTE/edit?usp=sharing>
 
 The assignments, along with due dates, are here:    
 <https://docs.google.com/spreadsheets/d/1Dct1iOmCpPkHb0uy1VJuMX--AVGy6Auo4Vh66iZ-VXw/edit?usp=sharing>
