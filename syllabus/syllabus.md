@@ -13,16 +13,21 @@ Friday Harbor Labs, University of Washington
 Spring 2018  
 Instructors: Dr. Robin Elahi (elahi.robin@gmail.com), Dr. Hilary Hayford (hayford@uw.edu)  
 Meeting Times: Tuesdays 4PM, Fridays 8:30AM-5PM (flexible; see schedule for details)  
-Meeting Locations: Lab X and other locations  
+Meeting Locations: Lecture hall, Computer lab, other locations  
+Office Hours: Drop-in or schedule an appointment by email; we are both in Lab 9
+
 Course Website: https://github.com/elahi/fhl470  
 
-The course listing is here:
+The course listing is here:  
 <https://fhl.uw.edu/courses/course-descriptions/course/historical-marine-ecology-research-experience/)>  
 
-Find this resource here:
-<https://github.com/elahi/fhl470/blob/master/syllabus/syllabus.pdf>
+Find this resource here:  
+<https://github.com/elahi/fhl470/blob/master/syllabus/syllabus.md>
 
-The assignments, along with due dates, are here:  
+Our course schedule is here:  
+<https://docs.google.com/spreadsheets/d/1CzR5K-k4mb_uYxXwWFgLBxPRHaaYke1ZHWGqA8vL4L8/edit#gid=0>
+
+The assignments, along with due dates, are here:    
 <https://docs.google.com/spreadsheets/d/1Dct1iOmCpPkHb0uy1VJuMX--AVGy6Auo4Vh66iZ-VXw/edit?usp=sharing>
 
 ## OVERVIEW 
