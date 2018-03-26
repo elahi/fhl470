@@ -1,3 +1,6 @@
+# Ignore folder
+ignore_folder/
+
 # History files
 .Rhistory
 .Rapp.history
