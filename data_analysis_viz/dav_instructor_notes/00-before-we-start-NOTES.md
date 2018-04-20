@@ -66,4 +66,5 @@ These notes are based on:
 
   - <https://www.rstudio.com/online-learning/#r-programming>
   - <http://swirlstats.com/> 
+  - <https://www.r-bloggers.com/the-5-most-effective-ways-to-learn-r/>
   
