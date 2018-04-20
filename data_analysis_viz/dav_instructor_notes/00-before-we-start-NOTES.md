@@ -50,8 +50,8 @@ These notes are based on:
   - from source script
     - control + enter (or command + enter on mac)
   - console
-    - > (R is ready)
-    - + (R is waiting)
+    - ">" (R is ready)
+    - "+" (R is waiting)
   - getting help
     - in R
     - ?barplot
@@ -61,4 +61,9 @@ These notes are based on:
     - google error messages
     - stack overflow
     - ask your neighbor!
-    
+
+## Some beginner resources
+
+  - <https://www.rstudio.com/online-learning/#r-programming>
+  - <http://swirlstats.com/> 
+  
