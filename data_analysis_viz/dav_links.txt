@@ -1,10 +1,8 @@
----
-layout: page
-element: notes
-title: DAV - links
----
+## DAV - challenges
 
 #### INTRO TO R #####
+
+-
 
 #### STARTING WITH DATA #####
 
