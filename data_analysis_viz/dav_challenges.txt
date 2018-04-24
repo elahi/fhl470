@@ -1,8 +1,4 @@
----
-layout: page
-element: notes
-title: DAV - challenges
----
+## DAV - challenges
 
 #### INTRO TO R #####
 
@@ -50,3 +46,12 @@ lengths <- c(10, 24, NA, 18, NA, 20)
 ## Use the function median() to calculate the median of the lengths vector
 
 #### STARTING WITH DATA #####
+
+### Challenge 1
+
+## Based on the output of str(surveys), can you answer the following questions?
+# What is the class of the object surveys?
+# How many rows and how many columns are in this object?
+# How many species have been recorded during these surveys?
+
+
