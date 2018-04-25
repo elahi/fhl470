@@ -1,10 +1,18 @@
-## DAV - challenges
+## DAV - links
+
+#### BEFORE WE START #####
+
+https://github.com/datacarpentry/R-ecology-lesson/blob/master/00-before-we-start.Rmd
 
 #### INTRO TO R #####
 
--
+https://github.com/datacarpentry/R-ecology-lesson/blob/master/01-intro-to-r.Rmd
 
 #### STARTING WITH DATA #####
 
+https://github.com/datacarpentry/R-ecology-lesson/blob/master/02-starting-with-data.Rmd
+
 download.file("https://ndownloader.figshare.com/files/2292169", "data/portal_data_joined.csv")
+
+
 

@@ -48,6 +48,8 @@ lengths <- c(10, 24, NA, 18, NA, 20)
 
 ## Use the function median() to calculate the median of the lengths vector
 
+
+
 #### STARTING WITH DATA #####
 
 ### Challenge 1
@@ -71,3 +73,42 @@ lengths <- c(10, 24, NA, 18, NA, 20)
 ## Use nrow() to extract the row that is in the middle of the data frame. Store the content of this row in an object named surveys_middle.
 
 ## Combine nrow() with the - notation above to reproduce the behavior of head(surveys), keeping just the first through 6th rows of the surveys dataset.
+
+
+### Challenge 3
+
+## Rename "F" and "M" to "female" and "male" respectively.
+
+## Now that we have renamed the factor level to "undetermined", can you recreate the
+## barplot such that "undetermined" is last (after "male")?
+
+
+### Challenge 4
+
+##  There are a few mistakes in this hand-crafted `data.frame`,
+##  can you spot and fix them? Don't hesitate to experiment!
+
+animal_data <- data.frame(
+  animal = c(dog, cat, sea cucumber, sea urchin),
+  feel = c("furry", "squishy", "spiny"),
+  weight = c(45, 8 1.1, 0.8)
+)
+
+
+##   Can you predict the class for each of the columns in the following example?
+##   Check your guesses using `str(country_climate)`:
+
+country_climate <- data.frame(country = c("Canada", "Panama", "South Africa", "Australia"),
+                              climate = c("cold", "hot", "temperate", "hot/temperate"),
+                              temperature = c(10, 30, 18, "15"),
+                              northern_hemisphere = c(TRUE, TRUE, FALSE, "FALSE"),
+                              has_kangaroo = c(FALSE, FALSE, FALSE, 1))
+
+##   Are they what you expected? Why? why not?
+##   What would have been different if we had added `stringsAsFactors = FALSE`
+##     when we created this data frame?
+##   What would you need to change to ensure that each column had the
+##     accurate data type?
+
+
+
