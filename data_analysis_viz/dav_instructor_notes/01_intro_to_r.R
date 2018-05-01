@@ -2,6 +2,21 @@
 ##' intro-to-r
 ##' 2018-04-27
 
+## These notes are based on:
+## <https://github.com/datacarpentry/R-ecology-lesson/blob/master/01-intro-to-r.Rmd>
+
+##### OBJECTIVES #####
+
+# Define the following terms as they relate to R: object, assign, call, function, arguments, options.
+# Assign values to variables in R.
+# Learn how to name objects
+# Use comments to inform script.
+# Solve simple arithmetic operations in R.
+# Call functions and use arguments to change their default options.
+# Inspect the content of vectors and manipulate their content.
+# Subset and extract values from vectors.
+# Analyze vectors with missing data.
+
 ##### CREATING OBJECTS #####
 
 3 + 5
