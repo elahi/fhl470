@@ -196,3 +196,65 @@ animals %in% c("rat", "cat", "dog", "duck", "goat")
 "zebra" > "apple"
 
 "four" > "fruit"
+
+#### MISSING DATA ####
+
+heights <- c(2, 4, 4, NA, 6)
+mean(heights)
+max(heights)
+mean(heights, na.rm = TRUE)
+max(heights, na.rm = TRUE)
+
+## is.na()
+## na.omit()
+## complete.cases()
+
+is.na(heights)
+!is.na(heights)
+
+## Extract those elements which are not missing values
+heights[!is.na(heights)]
+mean(heights[!is.na(heights)])
+
+## na.omit
+na.omit(heights)
+as.numeric(na.omit(heights))
+
+## complete.cases
+complete.cases(heights)
+heights[complete.cases(heights)]
+
+### Challenge 4 
+
+## Using this vector of length measurements, create a new vector with the NAs removed.
+lengths <- c(10, 24, NA, 18, NA, 20)
+
+# 1
+lengths_no_na <- as.numeric(na.omit(lengths))
+
+# 2
+lengths_no_na <- lengths[!is.na(lengths)]
+
+# 3
+lengths_no_na <- lengths[complete.cases(lengths)]
+
+lengths_no_na
+
+## Use the function median() to calculate the median of the lengths vector
+
+median(lengths_no_na)
+sort(lengths_no_na)
+
+median(as.numeric(na.omit(lengths)))
+na.omit(lengths)
+median(na.omit(lengths))
+
+median(lengths[!is.na(lengths)])
+
+median(lengths, na.rm = TRUE)
+
+##? lengths (what does this function do?)
+height <- c(10, 24, NA, 18, NA, 20)
+lengths(height)
+
+

@@ -17,4 +17,8 @@
 
 #### SURVEY DATA ####
 
-download.file("https://ndownloader.figshare.com/files/2292169", "data/portal_data_joined.csv")
+download.file(url = "https://ndownloader.figshare.com/files/2292169",
+              destfile = "data/portal_data_joined.csv")
+
+download.file(destfile = "data/portal_data_joined.csv", 
+              url = "https://ndownloader.figshare.com/files/2292169")
