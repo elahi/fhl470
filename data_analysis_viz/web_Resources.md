@@ -9,7 +9,7 @@ author: Robin Elahi
   - <http://swirlstats.com/> 
   - <https://www.r-bloggers.com/the-5-most-effective-ways-to-learn-r/>
   - <http://swcarpentry.github.io/r-novice-gapminder/>
-  - [R for data science]<http://r4ds.had.co.nz/>
+  - [R for data science](http://r4ds.had.co.nz/)
 
 
 ## Data manipulation
