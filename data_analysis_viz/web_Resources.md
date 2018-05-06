@@ -19,6 +19,7 @@ dplyr
   - <https://dplyr.tidyverse.org/>
   - <http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/>
   - <https://rpubs.com/justmarkham/dplyr-tutorial>
+  - <https://github.com/JoeyBernhardt/RStudyGroup-dplyr-lesson/blob/master/dplyr-lesson.Rmd>
   - <https://rpubs.com/bradleyboehmke/data_wrangling>
 
 tidyr
