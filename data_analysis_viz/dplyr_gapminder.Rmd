@@ -1,41 +1,31 @@
 ---
-layout: page
-element: notes
-title: dplyr - extra lesson
+title: "dplyr-lesson"
+output: 
+  html_document: 
+    keep_md: no
 ---
 
-# dplyr-lesson
+## `dplyr` lesson, courtesy of:
 
-`dplyr` lesson, adapted from Joey Bernhardt <https://github.com/JoeyBernhardt/RStudyGroup-dplyr-lesson/blob/master/dplyr-lesson.md>
+<https://github.com/JoeyBernhardt/RStudyGroup-dplyr-lesson>
+
+#### adapted from [SWC's `dplyr` lesson](http://swcarpentry.github.io/r-novice-gapminder/13-dplyr/)
+
+```{r, include=TRUE}
+#install.packages("gapminder")
+library(gapminder)
+library(dplyr)
+```
 
 Manipulation of dataframes means many things to many researchers, we often
 select certain observations (rows) or variables (columns), we often group the
 data by a certain variable(s), or we even calculate summary statistics. We can
 do these operations using the normal base R operations:
 
-
-```r
+```{r}
 mean(gapminder[gapminder$continent == "Africa", "gdpPercap"])
-```
-
-```
-## [1] 2193.755
-```
-
-```r
 mean(gapminder[gapminder$continent == "Americas", "gdpPercap"])
-```
-
-```
-## [1] 7136.11
-```
-
-```r
 mean(gapminder[gapminder$continent == "Asia", "gdpPercap"])
-```
-
-```
-## [1] 7902.15
 ```
 
 But this isn't very *nice* because there is a fair bit of repetition. Repeating
@@ -61,31 +51,27 @@ pipes (`%>%`) to combine them.
 
 If you have have not installed this package earlier, please do so:
 
-
-```r
+```{r,eval=FALSE}
 install.packages('dplyr')
 ```
 
 Now let's load the package:
 
-
-```r
+```{r,message=FALSE}
 library(dplyr)
 ```
 
-
-```r
+```{r,message=FALSE}
 gapminder <- tbl_df(gapminder)
 ```
 
-## Using select()
+## Using `select()`
 
 If, for example, we wanted to move forward with only a few of the variables in
 our dataframe we could use the `select()` function. This will keep only the
 variables you select.
 
-
-```r
+```{r}
 year_country_gdp <- select(gapminder,year,country,gdpPercap)
 ```
 
@@ -97,8 +83,7 @@ country and gdpPercap. Above we used 'normal' grammar, but the strengths of
 is unlike anything we've seen in R before, let's repeat what we've done above
 using pipes.
 
-
-```r
+```{r}
 year_country_gdp <- gapminder %>% select(year,country,gdpPercap)
 ```
 
@@ -110,13 +95,12 @@ gets that from the previous pipe. **Fun Fact**: There is a good chance you have
 encountered pipes before in the shell. In R, a pipe symbol is `%>%` while in the
 shell it is `|` but the concept is the same!
 
-## Using filter()
+## Using `filter()`
 
 If we now wanted to move forward with the above, but only with European
 countries, we can combine `select` and `filter`
 
-
-```r
+```{r}
 year_country_gdp_euro <- gapminder %>%
     filter(continent=="Europe") %>%
     select(year,country,gdpPercap)
@@ -130,12 +114,11 @@ and `year`, but not for other Continents.  How many rows does your dataframe
 have and why?
 
 Solution to Challenge 1
-
-```r
+```{r}
 year_country_lifeExp_Africa <- gapminder %>%
                            filter(continent=="Africa") %>%
                            select(year,country,lifeExp)
-```
+```                           
 
 
 
@@ -145,7 +128,7 @@ function, then we pass the filtered version of the gapminder dataframe to the
 case. If we used 'select' first, filter would not be able to find the variable
 continent since we would have removed it in the previous step.
 
-## Using group_by() and summarize()
+## Using `group_by()` and `summarize()`
 
 Now, we were supposed to be reducing the error prone repetitiveness of what can
 be done with base R, but up to now we haven't done that since we would have to
@@ -154,51 +137,12 @@ observations that meet your criteria (in the above: `continent=="Europe"`), we
 can use `group_by()`, which will essentially use every unique criteria that you
 could have used in filter.
 
-
-```r
+```{r}
 str(gapminder)
-```
 
-```
-## Classes 'tbl_df', 'tbl' and 'data.frame':	1704 obs. of  6 variables:
-##  $ country  : Factor w/ 142 levels "Afghanistan",..: 1 1 1 1 1 1 1 1 1 1 ...
-##  $ continent: Factor w/ 5 levels "Africa","Americas",..: 3 3 3 3 3 3 3 3 3 3 ...
-##  $ year     : num  1952 1957 1962 1967 1972 ...
-##  $ lifeExp  : num  28.8 30.3 32 34 36.1 ...
-##  $ pop      : num  8425333 9240934 10267083 11537966 13079460 ...
-##  $ gdpPercap: num  779 821 853 836 740 ...
-```
-
-```r
 gapminder %>%
 	group_by(continent) %>% 
 	str()
-```
-
-```
-## Classes 'grouped_df', 'tbl_df', 'tbl' and 'data.frame':	1704 obs. of  6 variables:
-##  $ country  : Factor w/ 142 levels "Afghanistan",..: 1 1 1 1 1 1 1 1 1 1 ...
-##  $ continent: Factor w/ 5 levels "Africa","Americas",..: 3 3 3 3 3 3 3 3 3 3 ...
-##  $ year     : num  1952 1957 1962 1967 1972 ...
-##  $ lifeExp  : num  28.8 30.3 32 34 36.1 ...
-##  $ pop      : num  8425333 9240934 10267083 11537966 13079460 ...
-##  $ gdpPercap: num  779 821 853 836 740 ...
-##  - attr(*, "vars")=List of 1
-##   ..$ : symbol continent
-##  - attr(*, "drop")= logi TRUE
-##  - attr(*, "indices")=List of 5
-##   ..$ : int  24 25 26 27 28 29 30 31 32 33 ...
-##   ..$ : int  48 49 50 51 52 53 54 55 56 57 ...
-##   ..$ : int  0 1 2 3 4 5 6 7 8 9 ...
-##   ..$ : int  12 13 14 15 16 17 18 19 20 21 ...
-##   ..$ : int  60 61 62 63 64 65 66 67 68 69 ...
-##  - attr(*, "group_sizes")= int  624 300 396 360 24
-##  - attr(*, "biggest_group_size")= int 624
-##  - attr(*, "labels")='data.frame':	5 obs. of  1 variable:
-##   ..$ continent: Factor w/ 5 levels "Africa","Americas",..: 1 2 3 4 5
-##   ..- attr(*, "vars")=List of 1
-##   .. ..$ : symbol continent
-##   ..- attr(*, "drop")= logi TRUE
 ```
 You will notice that the structure of the dataframe where we used `group_by()`
 (`grouped_df`) is not the same as the original `gapminder` (`data.frame`). A
@@ -208,7 +152,7 @@ value `continent` (at least in the example above).
 
 
 
-## Using summarize()
+## Using `summarize()`
 
 The above was a bit on the uneventful side because `group_by()` much more
 exciting in conjunction with `summarize()`. This will allow use to create new
@@ -217,8 +161,7 @@ data frames. That is to say, using the `group_by()` function, we split our
 original dataframe into multiple pieces, then we can run functions
 (e.g. `mean()` or `sd()`) within `summarize()`.
 
-
-```r
+```{r}
 gdp_bycontinents <- gapminder %>%
     group_by(continent) %>%
     summarize(mean_gdpPercap=mean(gdpPercap))
@@ -237,8 +180,7 @@ even better.
 
 ## Solution to Challenge 2
 
-
-```r
+```{r}
 lifeExp_bycountry <- gapminder %>%
     group_by(country) %>%
    summarize(mean_lifeExp=mean(lifeExp))
@@ -247,8 +189,7 @@ lifeExp_bycountry <- gapminder %>%
 The function `group_by()` allows us to group by multiple variables. Let's group by `year` and `continent`.
 
 
-
-```r
+```{r}
 gdp_bycontinents_byyear <- gapminder %>%
     group_by(continent,year) %>%
     summarize(mean_gdpPercap=mean(gdpPercap)) 
@@ -256,8 +197,7 @@ gdp_bycontinents_byyear <- gapminder %>%
 
 That is already quite powerful, but it gets even better! You're not limited to defining 1 new variable in `summarize()`.
 
-
-```r
+```{r}
 gdp_pop_bycontinents_byyear <- gapminder %>%
     group_by(continent,year) %>%
     summarize(mean_gdpPercap=mean(gdpPercap),
@@ -266,12 +206,11 @@ gdp_pop_bycontinents_byyear <- gapminder %>%
               sd_pop=sd(pop))
 ```
 
-## Using mutate()
+## Using `mutate()`
 
 We can also create new variables prior to (or even after) summarizing information using `mutate()`.
 
-
-```r
+```{r}
 gdp_pop_bycontinents_byyear <- gapminder %>%
     mutate(gdp_billion=gdpPercap*pop/10^9) %>%
     group_by(continent,year) %>%
@@ -293,8 +232,7 @@ gdp_pop_bycontinents_byyear <- gapminder %>%
  similar syntax to other dplyr functions.
 
  ## Solution to Advanced Challenge
-
-```r
+```{r}
 lifeExp_2countries_bycontinents <- gapminder %>%
     filter(year==2002) %>%
     group_by(continent) %>%
