@@ -149,9 +149,62 @@ country_climate <- data.frame(country = c("Canada", "Panama", "South Africa", "A
 
 ## 4. With this new truly long data set, calculate the average of each `measurement` in each `year` for each different `plot_type`. Then `spread` them into a wide data set with a column for `hindfoot_length` and `weight`. Hint: Remember, you only need to specify the key and value columns for `spread`.
 
+#### GGPLOT2 #####
+
+### Challenge 1 ###
+# Use what you just learned to create a scatter plot of weight over species_id with the plot types showing in different colors. 
+# Is this a good way to show this type of data?
+
+### Challenge 2 ###
+##  Start with the boxplot we created:
+ggplot(data = surveys_complete, aes(x = species_id, y = weight)) +
+  geom_boxplot(alpha = 0) +
+  geom_jitter(alpha = 0.3, color = "tomato")
+
+##  1. Replace the box plot with a violin plot; see `geom_violin()`.
+
+##  2. Represent weight on the log10 scale; see `scale_y_log10()`.
+
+##  3. Create boxplot for `hindfoot_length` overlaid on a jitter layer.
+
+##  4. Add color to the data points on your boxplot according to the
+##  plot from which the sample was taken (`plot_id`).
+##  *Hint:* Check the class for `plot_id`. Consider changing the class
+##  of `plot_id` from integer to factor. Why does this change how R
+##  makes the graph?  
+
+### Challenge 3 ###
+
+## We often want to plot point estimates (e.g., mean, median) 
+## along with a measure of uncertainty 
+## (e.g., standard deviation, standard error, confidence interval) 
+
+#' 1. First create a new dataframe, called 'surveys_summary', that summarises weight by species_id - calculate the mean, standard deviation, and sample size (n).
+
+#' 2. Plot mean body weight against species_id
+
+#' 3. Indicate the number of samples in the plot
+#' hint 1: use the size argument in the aes() mapping)
+#' hint 2: http://ggplot2.tidyverse.org/reference/geom_point.html
+
+#' 4. Recreate 'surveys_summary', but now add the standard error
+#' (google the formula for standard error if you have not learned this or forgotten)
+
+#' 5. Now on the plot, add error bars for the standard deviation
+#' hint(use a new layer, called geom_errorbar())
 
 
+### Challenge 4 ###
+# 
+# With all of this information in hand, please take another five minutes to either improve one of the plots generated in this exercise or create a beautiful graph of your own. Use the RStudio ggplot2 cheat sheet for inspiration. 
 
+# https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf
+
+# Here are some ideas:
+#   
+#   See if you can change the thickness of the lines.
+# Can you find a way to change the name of the legend? What about its labels?
+#   Try using a different color palette (see http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/).
 
 
 
