@@ -187,25 +187,20 @@ ggplot(data = surveys_complete, aes(x = species_id, y = weight)) +
 #' hint 1: use the size argument in the aes() mapping)
 #' hint 2: http://ggplot2.tidyverse.org/reference/geom_point.html
 
-#' 4. Recreate 'surveys_summary', but now add the standard error
-#' (google the formula for standard error if you have not learned this or forgotten)
-
-#' 5. Now on the plot, add error bars for the standard deviation
+#' 4. On the previous plot, add error bars for the standard deviation
 #' hint(use a new layer, called geom_errorbar())
 
-
 ### Challenge 4 ###
-# 
-# With all of this information in hand, please take another five minutes to either improve one of the plots generated in this exercise or create a beautiful graph of your own. Use the RStudio ggplot2 cheat sheet for inspiration. 
-
+## Tweaking the plot
+## Try to change axis labels; add figure title (hint: labs())
+## Try to remove the gray panel gridlines (hint: theme())
+## Try to change the error bar widths (hint: geom_errorbar())
+## Try to place the legend on the bottom of the figure
 # https://www.rstudio.com/wp-content/uploads/2015/08/ggplot2-cheatsheet.pdf
 
-# Here are some ideas:
-#   
-#   See if you can change the thickness of the lines.
-# Can you find a way to change the name of the legend? What about its labels?
-#   Try using a different color palette (see http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/).
-
+### Challenge 5 ###
+## Try to add the original data points to the plot
+## Hint: use geom_jitter as before
 
 
 
