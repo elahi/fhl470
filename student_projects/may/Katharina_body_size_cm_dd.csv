@@ -1,0 +1,11 @@
+Data Dictionary,
+Term,Key
+Year,Year the measurements were taken. 2018 and 1979 measurements were taken in May
+Treatment,"As an identifier, in refernce to Duggins and Dethiers's experiment (1985)"
+Area,"Secondary indentifier, in refernce to Duggins and Dethier's experiment (1985)"
+Transect,"Which transect tape we laid, to reference where quadrats were"
+Quadrat,"Order that quadrats were done chronologically, not by treatment, area, or transect."
+Tidal_height_quad_ft,"Tidal heights per quadrat were measured in feet, because we had a transect tape in feet. We recorded in feet and coverted to meters later."
+Tidal_height_quad_m,Conversion we used in Spreadsheets to put our feet tide heights in meters.
+Body_length_cm,Body length to the nearest centimeter of each Katharina found in the one meter square quadrat going down the transect.
+Notes,"Any qualitative observations we thought worth writing down. Not used often, just in particular instances."

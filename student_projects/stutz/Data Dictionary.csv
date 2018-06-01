@@ -1,0 +1,13 @@
+﻿Column,Definition 
+date,date that particular star was seen
+year,what year the survey was taken in
+start_time,what time the start of the survey began
+end_time,the time when the survey ended
+start_tide,the approximate tide at the start of the survey
+end_tide,the approximate tide at the end of the survey
+transect,which transect the star was seen in
+site,which site the star was seen
+latitude,the latitude coordinates of the start of the transect
+longitude,the longitude coordinates of the start of the transect
+species_id,the species of sea star found
+size_cm,the size of the sea star found measured from the center of the star to the end of the longest arm 

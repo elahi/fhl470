@@ -1,0 +1,22 @@
+Data Dictionary,
+Term,Key
+Date,Year survey took place
+Day,Month and day survey took place
+Treatment,"As an identifier, in reference to Duggins and Dethiers's experiment (1985)"
+Transect,"Which transect tape we laid, to reference where quadrats were"
+Quadrat,"Order that quadrats were done chronologically, not by treatment, area, or transect."
+Tidal_height_quad_ft,"Tidal heights per quadrat were measured in feet, because we had a transect tape in feet. We recorded in feet and coverted to meters later."
+Tidal_height_quad_m,Conversion we used in Spreadsheets to put our feet tide heights in meters.
+S_sessilis,Saccharina sessilis percent cover/quadrat
+C_vancouveriensis,Corallina vancouveriensis percent cover/quadrat
+Bossiella,Bossiella plumosa percent cover/quadrat
+Polysiphonia,Polysiphonia all recognized species in this one category percent cover/quadrat
+Microcladia,Microcladia borealis percent cover/quadrat
+Encrusting_c,All encrusing corallines percent cover/quadrat
+Encrusting_n_c,"All non-coralline crusts, like Petrocelis, percent cover/quadrat"
+Limpets,"All limpets in one category with the exception of Acmaea mitra, abundance/quadrat"
+A_m,Acmaea mitra abundance per quadrat
+Phyllospadix,Phyllospadix coulteri percent cover/quadrat
+Katharina,Katharina tunicata abundance per quadrat
+Tonicella,Tonicella spp. abbundance per quadrat
+Mopalia,Mopalia mucosa abundance per quadrat
